@@ -1,4 +1,4 @@
 # Hackrack.in
-DO NOT push TO main BRANCH | CREATE A new branch WITH YOUR name AND THEN MAKE CHANGES IN IT 👍.
+DO NOT push TO main BRANCH | CREATE A new branch WITH YOUR name AND THEN MAKE CHANGES IN IT.
 PLEASE ADD HERO AND ALL OTHER CONTENTS OF HACRACK WEBSITE INSIDE div WITH class="container-body". 
-ALSO DO NOT MAKE ANY CHANGES TO style-blur-navbar.css YOU HAVE TO ONLY WORK ON style.css
+ALSO DO NOT MAKE ANY CHANGES TO style-blur-navbar.css YOU HAVE TO ONLY WORK ON style.css.

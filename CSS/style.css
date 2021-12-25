@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Inter',sans-serif;
-}
-
 .navbar {  
     background-color: #fff;
     position: fixed;
@@ -81,7 +77,7 @@ body{
 
 @media (max-width: 720px){
 
-.container, #container-body{
+.container, .container-body{
     max-width: 100%;
 }
 

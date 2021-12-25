@@ -1,9 +1,5 @@
-<<<<<<< HEAD
+
 *,*::before,*::after{
-=======
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
->>>>>>> 0816cfd2bd4bb6a38178e95d5354d2b01cd9bea6
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -15,8 +11,12 @@
     background-color: #fff;
     position: fixed;
     top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 50px;
+    font-family: 'Inter',sans-serif;
     box-shadow:0 1px 0 rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .1);
     overflow: hidden; 
 }
@@ -31,16 +31,12 @@
     align-items: center;  
 }
 
-<<<<<<< HEAD
-.navbar__btn{
-=======
 .container-body{
     max-width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
-.nav-unlist{
->>>>>>> 0816cfd2bd4bb6a38178e95d5354d2b01cd9bea6
+.navbar__btn{
     display: flex;
     justify-content: space-between;
 }

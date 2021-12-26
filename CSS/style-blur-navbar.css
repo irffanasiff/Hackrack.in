@@ -1,11 +1,12 @@
 
-.blurred-content {
+.navbar__blurcontent {
     filter: url(#blur-effect);
-    margin: 0 auto;
+    margin: 0 0;
+    max-width: 100%;
     opacity: 0.6;
 }
 
-.nav-unlist .blurred-content{
+.navbar__btn .navbar__blurcontent{
     position: absolute;
     top: 0;
     z-index: -1;
@@ -13,28 +14,22 @@
 
 @supports not (backdrop-filter: blur(12px)) {
    
-    .blurred-content {
+    .navbar__blurcontent, .navbar__btn .navbar__blurcontent {
         position: absolute;
         top: 0;
-        width:100%;
-        margin: 50px auto;
+        max-width:100%;
+        margin: 50px 0;
         filter: url(#blur-effect);
         opacity: 0.6;
         z-index: -1;
     }
-    .nav-unlist .blurred-content{
-        position: absolute;
-        top: -50px;
-        width:100%;
+    .navbar__btn .navbar__blurcontent{
         margin: 0 auto;
-        filter: url(#blur-effect);
-        opacity: 0.6;
-        z-index: -1;
     }
 }
     
 @media (min-width:720px) {
-    .nav-unlist .blurred-content{
+    .navbar__btn .navbar__blurcontent{
         display: none;
     }
 }    

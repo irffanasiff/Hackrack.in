@@ -1,5 +1,4 @@
 
-
  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .content
@@ -106,7 +105,9 @@
     margin-left: -30px;
     grid-column: 3/5;
 }
-
+.css-1mekizr{
+    z-index: -1;
+}
 @media screen and (max-width: 990px)
 {
   .content{

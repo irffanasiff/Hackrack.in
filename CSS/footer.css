@@ -1,0 +1,203 @@
+.footer
+{
+    padding:3rem 5rem;
+    max-width:600vw;
+    font-family: 'Inter',sans-serif;
+}
+.top-row
+{
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+}
+.footer-heading
+{
+    background-image: linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+.footer-content
+{
+    font-size: 0.8rem;
+}
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-button
+{
+    margin: 2rem 1rem;
+    padding:0.4rem 1.2rem;
+    border-radius: 1.6rem;
+    border: none;
+    font-size: 0.8rem;
+    background-color:#eff4fa;
+}
+.join
+{
+  padding:0.4rem 1.4rem ;
+}
+.line
+{
+    height:2px;
+    width:100%;
+    background-color:#F0F0F0;
+    margin:5rem 1rem 2rem 1rem;
+}
+.bottom-row
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.bottom-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 3rem 3rem 3rem;
+}
+.name
+{
+  font-style: italic;
+  font-size: 2rem;
+  font-weight:240;
+}
+.copyright
+{
+    font-size:0.8rem;
+}
+.icon
+{
+    margin: 0 0.3rem;
+    border: 2.5px solid #F0F0F0;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 990px)
+{
+   .footer
+   {
+       background-color:#F0F0F0;
+       padding: 2rem;
+   }
+   .top-row
+   {
+       width: 80%;
+   }
+   .footer-heading
+   {
+       font-size: 2.2rem;
+   }
+   .footer-content
+   {
+       margin:1.6rem 0;
+   }
+   .footer-button
+   {
+       margin: 1rem;
+   }
+   .footer-card
+   {
+       background-color: white;
+       padding: 1rem 1rem 4rem 1rem;
+       position: relative;
+   }
+   .line
+   {
+       margin-top:2.5rem ;
+   }
+   .bottom-content
+   {
+       flex-direction: column;
+       padding-top: 1rem;
+   }
+   .icons
+   {
+      padding-top: 2rem;
+   }
+   .copyright
+   {
+       position: absolute;
+       bottom: 0;
+       padding: 3rem;
+   }
+}
+
+@media screen and (max-width: 540px)
+{
+    .footer
+    {
+        background-color:#F0F0F0;
+        padding: 1rem;
+    }
+    .top-row
+    {
+        width: 95%;
+    }
+    .footer-heading
+    {
+        font-size:1.5rem;
+    }
+    .footer-content
+    {
+        margin:2rem 0;
+        font-size: 0.75rem;
+    }
+    .footer-button
+    {
+        margin: 1.2rem;
+        padding:0.3rem 0.8rem;
+        font-size: 0.6rem;
+    }
+    .footer-card
+    {
+        background-color: white;
+        padding: 1rem 1rem 4rem 1rem;
+        position: relative;
+    }
+    .bottom-container
+    {
+        width: 100%;
+    }
+    .line
+    {
+        margin:2.5rem 0 0 0;
+    }
+    .bottom-content
+    {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .name
+    {
+        font-size: 1.5rem;
+    }
+    .icons
+    {
+       padding: 2rem 0 0 0;
+    }
+    .icon
+   {
+    margin: 0 0.1rem;
+    border: 2px solid #F0F0F0;
+    border-radius: 50%;
+    padding: 0.5rem;
+   }
+    .copyright
+    {
+        position: absolute;
+        bottom: 0;
+        font-size: 0.6rem;
+        padding: 3rem;
+    }
+}

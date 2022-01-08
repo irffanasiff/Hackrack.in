@@ -32,7 +32,7 @@
 }
 
 .container-body{
-    max-width: 80%;
+    max-width: 90%;
     margin: 50px auto;
 }
 
@@ -82,10 +82,6 @@
     display: none;
 }
 
-.container-body{
-    max-width: 80%;
-    margin: 50px auto;
-}
 
 @media (max-width: 720px){
 

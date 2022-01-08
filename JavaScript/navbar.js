@@ -2,6 +2,7 @@ navBar();
 function navBar() {
     const blurTarget = document.querySelector(".container-body");
     const duplicate = blurTarget.cloneNode(true);
+    duplicate.lastElementChild.removeAttribute('id');
     const targetBlurred = document.createElement("div");
     targetBlurred.className = "navbar__blurcontent";
     targetBlurred.appendChild(duplicate);
@@ -10,6 +11,7 @@ function navBar() {
 
     const blurTargettwo = document.querySelector(".container-body");
     const duplicatetwo = blurTarget.cloneNode(true);
+    duplicatetwo.lastElementChild.removeAttribute('id');
     const targetBlurredtwo = document.createElement("div");
     targetBlurredtwo.className = "navbar__blurcontent";
     targetBlurredtwo.appendChild(duplicatetwo);

@@ -9,7 +9,6 @@ function navBar() {
     const navContainer = document.querySelector(".navbar");
     navContainer.appendChild(targetBlurred);
 
-    const blurTargettwo = document.querySelector(".container-body");
     const duplicatetwo = blurTarget.cloneNode(true);
     duplicatetwo.lastElementChild.removeAttribute('id');
     const targetBlurredtwo = document.createElement("div");

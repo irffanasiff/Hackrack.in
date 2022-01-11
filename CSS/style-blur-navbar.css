@@ -12,6 +12,12 @@
     z-index: -1;
 }
 
+@media (max-width:720px) {
+    .navbar .navbar__blurcontent{
+        display: none;
+    }    
+}
+
 @supports not (backdrop-filter: blur(12px)) {
    
     .navbar__blurcontent, .navbar__btn .navbar__blurcontent {
@@ -26,10 +32,10 @@
     .navbar__btn .navbar__blurcontent{
         margin: 0 auto;
     }
+
+    @media (max-width:720px) {
+        .navbar .navbar__blurcontent{
+            display: none;
+        }
+    }    
 }
-    
-@media (min-width:720px) {
-    .navbar__btn .navbar__blurcontent{
-        display: none;
-    }
-}    

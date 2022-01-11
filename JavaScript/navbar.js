@@ -9,17 +9,9 @@ function navBar() {
     const navContainer = document.querySelector(".navbar");
     navContainer.appendChild(targetBlurred);
 
-    const duplicatetwo = blurTarget.cloneNode(true);
-    duplicatetwo.lastElementChild.removeAttribute('id');
-    const targetBlurredtwo = document.createElement("div");
-    targetBlurredtwo.className = "navbar__blurcontent";
-    targetBlurredtwo.appendChild(duplicatetwo);
-    const ulContainer = document.querySelector(".navbar__btn");
-    ulContainer.appendChild(targetBlurredtwo);
-
-    const contentWrapper = document.querySelector(".navbar__blurcontent");
     window.addEventListener('scroll', function () {
         duplicate.style.marginTop = -this.scrollY + 'px';
-        duplicatetwo.style.marginTop = -this.scrollY + 'px';
     });
 }
+
+  

@@ -68,6 +68,8 @@
 }
 
 .btn {
+  max-width: 8rem;
+  margin: auto;
   background-color: var(--hackrack_black);
   font-size: 0.9rem;
   color: white;

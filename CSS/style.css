@@ -16,7 +16,6 @@
 }
 
 .navbar {
-  background-color: #fff;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -103,7 +102,7 @@
   .navbar__btn li {
     text-align: left;
     display: block;
-    font-size: 1rem;   
+    font-size: 1rem;
     border-bottom: 1px solid lightgray;
   }
 
@@ -132,14 +131,13 @@
     top: 50px;
     right: 0;
   }
-
 }
 
 .hamburger {
   padding: 0.5rem;
 }
 
-.hamburger .line{
+.hamburger .line {
   width: 25px;
   height: 3px;
   background-color: #000;
@@ -150,36 +148,35 @@
   transition: all 0.3s ease-in-out;
 }
 
-.hamburger:hover{
+.hamburger:hover {
   cursor: pointer;
 }
 
-#check:checked ~ .check__btn .hamburger{
+#check:checked ~ .check__btn .hamburger {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-#check:checked ~ .check__btn .hamburger .line:nth-child(2){
+#check:checked ~ .check__btn .hamburger .line:nth-child(2) {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
 }
 
-#check:checked ~ .check__btn .hamburger .line:nth-child(2){
+#check:checked ~ .check__btn .hamburger .line:nth-child(2) {
   -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
 
-
-#check:checked ~ .check__btn .hamburger .line:nth-child(2){
+#check:checked ~ .check__btn .hamburger .line:nth-child(2) {
   opacity: 0;
 }
 
 #check:checked ~ .check__btn .hamburger .line:nth-child(1),
-#check:checked ~ .check__btn .hamburger .line:nth-child(3){
+#check:checked ~ .check__btn .hamburger .line:nth-child(3) {
   -webkit-transform-origin: right;
   -moz-transform-origin: right;
   -ms-transform-origin: right;
@@ -187,14 +184,14 @@
   transform-origin: right;
 }
 
-#check:checked ~ .check__btn .hamburger .line:nth-child(1){
+#check:checked ~ .check__btn .hamburger .line:nth-child(1) {
   -webkit-transform: translateY(15px) rotate(45deg);
   -ms-transform: translateY(15px) rotate(45deg);
   -o-transform: translateY(15px) rotate(45deg);
   transform: translateY(15px) rotate(45deg);
 }
 
-#check:checked ~ .check__btn .hamburger .line:nth-child(3){
+#check:checked ~ .check__btn .hamburger .line:nth-child(3) {
   -webkit-transform: translateY(-15px) rotate(-45deg);
   -ms-transform: translateY(-15px) rotate(-45deg);
   -o-transform: translateY(-15px) rotate(-45deg);

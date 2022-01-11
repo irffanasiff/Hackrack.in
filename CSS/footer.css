@@ -86,8 +86,7 @@
 @media screen and (max-width: 990px)
 {
    .footer
-   {
-       background-color:#F0F0F0;
+   { 
        padding: 2rem;
    }
    .top-row
@@ -137,7 +136,6 @@
 {
     .footer
     {
-        background-color:#F0F0F0;
         padding: 1rem;
     }
     .top-row

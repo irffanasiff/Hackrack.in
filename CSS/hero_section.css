@@ -10,7 +10,8 @@
 }
 
 
-.hero-section
+.hero-section,
+.event
 {
  display:flex;
  flex-direction: column;
@@ -20,8 +21,8 @@
  text-align:center; 
 }
 
-.hero-section .h1{
-
+.hero-section .h1, 
+.event h2{
     font-size:3.45rem;
     font-weight: 700;
     background-image: linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
@@ -33,7 +34,8 @@
     -moz-text-fill-color: transparent;
 }
 
-.hero-section span {
+.hero-section span ,
+ .event span{
     font-family: Eldwin,Eldwin1;
     font-weight: 400;
     font-style: italic;
@@ -51,7 +53,8 @@
 }
 
 
-.hero-section .p2
+.hero-section .p2,
+.event p
 {
     font-size:1.3rem;
     font-weight: 300;

@@ -1,3 +1,8 @@
+:root {
+    --font-head: clamp(1.3rem, 2vw, 4rem);
+    --font-para-time: clamp(0.9rem, 1vw, 2rem);
+}
+
 .event {
     padding: 5rem 0;
 }
@@ -39,16 +44,17 @@
 }
 
 .event__details h3 {
-    font-size: 1.5rem;
+    font-size: var(--font-head);
     font-weight: bold;
 }
 
 .event__details p{
+    font-size: var(--font-para-time);
     padding:  0;
 }
 
 .event__time {
-    font-size: 1.2rem;
+    font-size: var(--font-para-time);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -56,6 +62,7 @@
 }
 
 .register__btn {
+    font-size: var(--font-para-time);
     background-color: white ;
     padding: 0.3rem 1rem;
     border-radius: 0.5rem;

@@ -114,7 +114,6 @@
     width: 100%;
     background: #fff;
     top: -100%;
-    transition: all 1s;
     overflow: hidden;
   }
 
@@ -124,7 +123,6 @@
 
   #check:checked ~ .navbar__btn {
     top: 50px;
-    transition: all 1s;
   }
 
   #check:checked ~ .check__btn {

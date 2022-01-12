@@ -30,8 +30,8 @@
   margin: 0 auto;
   padding: 3rem 0;
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 4rem 1rem;
+  grid-template-columns: auto;
+  gap: 4rem 0.5rem;
 }
 
 .event__card {
@@ -82,13 +82,12 @@ img {
   border-radius: 1rem 1rem 0 0;
 }
 
-@media (max-width: 1150px) {
+@media screen and (min-width: 426px) {
   .event__container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2,auto);
   }
-}
-@media (max-width: 540px) {
-  .event__container {
-    grid-template-columns: auto;
+
+  .event__time {
+    flex-direction: column;
   }
 }

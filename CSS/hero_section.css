@@ -4,10 +4,11 @@
   --hackrack_blue: #3779b6;
   --hackrack_black: #363636;
   --hackrack_white: #ffffff;
+  --font-para-width: clamp(28rem, 80vw, 42rem);
 }
 
 .hero-section {
-  margin-top: 30vh;
+  margin-top: 18vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,7 +19,7 @@
 .hero-section__heading {
   letter-spacing: -2px;
   max-width: 80%;
-  line-height: 2.7rem;
+  line-height: 3rem;
   font-size: 2.2rem;
   font-weight: 700;
 
@@ -57,38 +58,22 @@
 }
 
 .hero-section__paragraph {
-  font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
   padding: 2.8rem 2rem;
 }
 
-.button {
-  display: grid;
-  margin: 0 auto;
-}
-
 .btn {
-  max-width: 8rem;
-  margin: auto;
-  background-color: var(--hackrack_black);
-  font-size: 0.9rem;
-  color: white;
-  border-radius: 100px;
-  padding: 8px 24px;
-  font-weight: 400;
-  cursor: pointer;
-  border: none;
+  background: #f8f8f8;
+  border-radius: 71px;
+  width: fit-content;
+  padding: 10px 25px;
+  font-weight: 300;
 }
 
 .hero-section .btn:hover,
 .hero-section .btn:focus {
-  background-image: linear-gradient(
-    300deg,
-    #3783f6 0.1%,
-    #02cbde 41.42%,
-    #5f0fcd 101.92%
-  );
-  box-shadow: 0px 15px 40px 0px #3783f68c;
   transform: translateY(-0.4em);
   transition: all 0.2s ease-in-out;
 }
@@ -110,8 +95,8 @@
   .hero-section__heading {
     max-width: 90%;
     letter-spacing: -3px;
-    line-height: 4rem;
-    font-size: 3.5rem;
+    line-height: 50px;
+    font-size: 3rem;
   }
   .hero-section__paragraph {
     font-weight: 3rem;
@@ -123,13 +108,12 @@
   .hero-section__svg img {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    width: auto;
+    width: 97vw;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
-
   .hero-section__heading {
     max-width: 45rem;
     line-height: 5rem;
@@ -137,8 +121,9 @@
     font-weight: 800;
   }
   .hero-section__paragraph {
-    max-width: 50%;
+    max-width: var(--font-para-width);
     font-size: 1.2rem;
+    line-height: 30px;
   }
   .hero-section__svg img {
     padding-top: 8rem;

@@ -1,19 +1,18 @@
 
 .navbar__blurcontent {
     filter: url(#blur-effect);
-    margin: 0 0;
     max-width: 100%;
     opacity: 0.6;
 }
 
-.navbar__btn .navbar__blurcontent{
+.navbar__btn .navbar__blurcontent {
     position: absolute;
     top: 0;
     z-index: -1;
 }
 
-@media (max-width:720px) {
-    .navbar .navbar__blurcontent{
+@media (max-width:426px) {
+    .navbar .navbar__blurcontent {
         display: none;
     }    
 }
@@ -24,17 +23,16 @@
         position: absolute;
         top: 0;
         max-width:100%;
-        margin: 50px 0;
         filter: url(#blur-effect);
         opacity: 0.6;
         z-index: -1;
     }
-    .navbar__btn .navbar__blurcontent{
+    .navbar__btn .navbar__blurcontent {
         margin: 0 auto;
     }
 
-    @media (max-width:720px) {
-        .navbar .navbar__blurcontent{
+    @media (max-width:426px) {
+        .navbar .navbar__blurcontent {
             display: none;
         }
     }    

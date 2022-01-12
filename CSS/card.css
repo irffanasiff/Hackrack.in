@@ -30,19 +30,12 @@
 
 .event__container {
   margin: 0 auto;
-<<<<<<< HEAD
-  padding: 3rem 0;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 4rem 0.5rem;
-=======
   padding: 3rem 1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
->>>>>>> 5ec0a381c3f6279cd7b7dee091d8a0e425db8420
 }
 
 .event__card {
@@ -77,6 +70,7 @@
   font-weight: 300;
   padding: 0;
 }
+
 .event_detail--action {
   display: flex;
   justify-content: space-between;
@@ -88,6 +82,7 @@
   font-weight: 600;
   font-style: italic;
 }
+
 .set__remidner__button {
   background: #ffffff;
   padding: 0.4rem 0.7rem;
@@ -95,6 +90,7 @@
   font-size: small;
   color: var(--hackrack_black);
 }
+
 .set__remidner__button:hover {
   filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.212));
 }
@@ -105,15 +101,8 @@ img {
 }
 
 @media screen and (min-width: 426px) {
-<<<<<<< HEAD
-  .event__container {
-    grid-template-columns: repeat(2,auto);
-  }
-
-  .event__time {
-    flex-direction: column;
-=======
 }
+
 @media screen and (min-width: 768px) {
   .event__card {
     max-width: 22rem;
@@ -127,6 +116,5 @@ img {
     border-radius: 30px;
     font-size: medium;
     color: var(--hackrack_black);
->>>>>>> 5ec0a381c3f6279cd7b7dee091d8a0e425db8420
   }
 }

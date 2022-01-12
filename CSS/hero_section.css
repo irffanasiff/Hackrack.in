@@ -87,8 +87,8 @@
 }
 .hero-section__svg img {
   object-fit: cover;
-  width: 30rem;
-  height: 30rem;
+  width: 100vw;
+  height: 120vw;
 }
 
 @media screen and (min-width: 426px) {

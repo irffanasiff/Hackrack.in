@@ -3,16 +3,23 @@
     padding:3rem 5rem;
     max-width:600vw;
     font-family: 'Inter',sans-serif;
+    position: relative;
+    z-index: -1;
 }
 .top-row
 {
-   width: 50%;
+   width: 60%;
    margin: 0 auto;
    text-align: center;
 }
 .footer-heading
 {
-    background-image: linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
+    background-image: linear-gradient(
+    290deg,
+    #3783f6 0.1%,
+    #02cbde 41.42%,
+    #5f0fcd 101.92%
+  );
     background-clip: text;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -21,41 +28,56 @@
     -moz-text-fill-color: transparent;
     margin: 2rem 0;
     font-size: 2.5rem;
-    font-weight: 450;
+    font-weight: 500;
 }
 .footer-content
 {
-    font-size: 0.8rem;
+    font-size:1rem;
+    color:#0A142F;
+    line-height:1.3;
 }
 .buttons
 {
     display: flex;
+    width: 60%;
+    margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
+
 .footer-button
 {
-    margin: 2rem 1rem;
-    padding:0.4rem 1.2rem;
-    border-radius: 1.6rem;
-    border: none;
+    margin: 4rem 1rem;
     font-size: 0.8rem;
+    padding:0.6rem 1.4rem ;
     background-color:#eff4fa;
+    border-radius: 1.6rem;
+    font-weight:300;
+    border: none; 
 }
+
 .join
 {
-  padding:0.4rem 1.4rem ;
+  padding:0.6rem 1.6rem ;
+}
+
+.blue-box
+{
+    background-color:#3779B6;
+    height:15em;
+    width:85%;
+    margin:8em auto;
 }
 .line
 {
     height:2px;
     width:100%;
     background-color:#F0F0F0;
-    margin:5rem 1rem 2rem 1rem;
+    margin:5rem auto 2rem auto;
 }
 .bottom-row
 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .bottom-content
@@ -74,6 +96,8 @@
 .copyright
 {
     font-size:0.8rem;
+    color: #0A142F;
+    font-weight: 400;
 }
 .icon
 {
@@ -153,15 +177,21 @@
     }
     .footer-button
     {
-        margin: 1.2rem;
+        margin: 1.2rem; 
         padding:0.3rem 0.8rem;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
+
     .footer-card
     {
         background-color: white;
         padding: 1rem 1rem 4rem 1rem;
         position: relative;
+    }
+    .blue-box
+    {
+        width: 100%;
+        margin:6em auto;
     }
     .bottom-container
     {
@@ -195,7 +225,9 @@
     {
         position: absolute;
         bottom: 0;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         padding: 3rem;
     }
 }
+
+

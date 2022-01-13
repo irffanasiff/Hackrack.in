@@ -152,7 +152,7 @@
 {
     .footer
     {
-        padding: 1rem;
+        padding:0;
     }
     .top-row
     {
@@ -204,6 +204,8 @@
     .icons
     {
        padding: 2rem 0 0 0;
+       width: 100%;
+       text-align: center;
     }
     .icon
    {
@@ -218,5 +220,7 @@
         bottom: 0;
         font-size: 0.6rem;
         padding: 3rem;
+        width: 100%;
+        text-align: center;
     }
 }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@300&display=swap');
+
+
+.shoutout
+{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shoutout-section
+{
+   text-align: center;
+   max-width:75vw;
+   font-family: 'Inter',sans-serif;
+}
+
+
+.s-1-content
+{
+    font-size: 16px;
+    color:#0A142F;
+    line-height:1.3;
+    margin-top: 28px;
+}
+
+.s-1
+{   
+ font-size:24px;
+ font-weight:500;
+}
+
+.shoutout-button
+{
+    margin-top:40px;
+    border-radius: 1.6rem;
+    padding:0.5rem 1.4rem;
+    border-style: none;
+    background-color:#F7F9FB;
+    cursor:pointer;
+}
+
+.shoutout-button:hover{
+  box-shadow: 6px 0px 6px 0px #3783f6;
+  border: solid 3px transparent;
+  background-image:linear-gradient( #5f0fcd 0.1%,
+  #02cbde 41.42%,
+  #3783f6 101.92%), linear-gradient(101deg, #5f0fcd 0.1%,
+  #02cbde 41.42%,
+  #3783f6 101.92%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.image1{
+    display: block;
+    width:60vw;
+    margin:20px auto;
+}
+
+@media screen and (min-width:768px)
+{
+    .s-1-content
+    {
+     font-size: 22px;
+     font-weight: 300;
+    }
+    .s-1{
+     font-size:30px;
+     font-weight: 500;
+    }
+}
+
+@media screen and (min-width:992px)
+{
+    .shoutout-section
+   {
+   max-width:55vw;
+  }
+    .s-1-content
+    {
+     font-size: 24px;
+     font-weight: 300;
+    }
+    .s-1{
+     font-size:30px;
+     font-weight: 500;
+    }
+    .shoutout-button
+    {
+        padding:1rem 1.4rem;
+    }
+
+    .image1{
+        display: block;
+        width:30vw;
+        margin:30px auto;
+    }
+    
+}
+
+
+
+
+

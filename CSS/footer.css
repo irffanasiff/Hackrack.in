@@ -1,17 +1,21 @@
-.footer
-{
-    padding:3rem 5rem;
-    max-width:600vw;
+:root {
+    --font-para-width:  clamp(28rem, 80vw, 42rem);
+  }
+  .footer {
+    padding:3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     font-family: 'Inter',sans-serif;
-}
-.top-row
-{
-   width: 60%;
-   margin: 0 auto;
-   text-align: center;
-}
-.footer-heading
-{
+  }
+
+  .footer h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 20px;
     background-image: linear-gradient(
     290deg,
     #3783f6 0.1%,
@@ -24,199 +28,178 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin: 2rem 0;
-    font-size: 2.5rem;
-    font-weight: 450;
-}
-.footer-content
+  }
+  .footer-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.8rem 2rem;
+  }
+  
+  .footer-button
 {
-    font-size: 1rem;
-    color:#0A142F;
-    line-height:1.3;
-}
-.buttons
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer-button
-{
-    margin: 2rem 1rem;
+    margin: 2rem 0.8rem;
     padding:0.6rem 1.4rem;
     border-radius: 1.6rem;
     border: none;
-    font-size: 0.8rem;
-    background-color:#eff4fa;
-}
-.join
-{
-  padding:0.6rem 1.6rem ;
+    font-size:13px;
+    font-style: normal;
+    line-height: 16px;
+    font-weight: 300;
+    background-color:#f8f8f8;
+    text-align: center;
+    letter-spacing: -0.01em;
 }
 .blue-box
 {
     background-color:#3779B6;
-    height:15em;
-    width:85%;
-    margin:8em auto;
+    height:215px;
+    width:90%;
+    margin:4em auto;
 }
+
 .line
 {
     height:2px;
-    width:100%;
-    background-color:#F0F0F0;
-    margin:5rem auto 2rem auto;
+    width:90%;
+    background: #0F528B;
+    opacity: 0.1;
+    margin:0 auto 0 auto;
 }
 .bottom-row
 {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 .bottom-content
 {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    padding:2rem 3rem 3rem 3rem;
+    margin: 0 auto;
+    padding:4rem 3rem 1rem 4rem;
+    text-align: center;
 }
-.name
-{
-  font-style: italic;
-  font-size: 2rem;
-  font-weight:240;
-}
-.copyright
-{
-    font-size:0.8rem;
+  .name
+  {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight:240;
+  }
+  .copyright
+  {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
     color: #0A142F;
-    font-weight: 400;
-}
-.icon
-{
-    margin: 0 0.3rem;
-    border: 2.5px solid #F0F0F0;
-    border-radius: 50%;
-    padding: 1rem;
-}
+    margin-top: 2rem;
+     width: 100%;
+  }
+  .reverse
+  {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .icons
+  {
+     padding: 2rem 0 0 0;
+     width: 100%;
+     text-align: center;
+  }
+  .icon
+ {
+  margin: 0 0.1rem;
+  border: 2px solid #F0F0F0;
+  border-radius: 50%;
+  padding: 0.5rem;
+ }
 
-@media screen and (max-width: 990px)
-{
-   .footer
-   { 
-       padding: 2rem;
-   }
-   .top-row
-   {
-       width: 80%;
-   }
-   .footer-heading
-   {
-       font-size: 2.2rem;
-   }
-   .footer-content
-   {
-       margin:1.6rem 0;
-   }
-   .footer-button
-   {
-       margin: 1rem;
-   }
-   .footer-card
-   {
-       background-color: white;
-       padding: 1rem 1rem 4rem 1rem;
-       position: relative;
-   }
-   .line
-   {
-       margin-top:2.5rem ;
-   }
-   .bottom-content
-   {
-       flex-direction: column;
-       padding-top: 1rem;
-   }
-   .icons
-   {
-      padding-top: 2rem;
-   }
-   .copyright
-   {
-       position: absolute;
-       bottom: 0;
-       padding: 3rem;
-   }
-}
+ @media screen and (min-width: 426px) {
+    .footer h1 {
+      font-size: 28px;
+      padding-bottom: 24px;
+    }
+    .footer-content {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
 
-@media screen and (max-width: 540px)
-{
-    .footer
-    {
-        padding: 1rem;
+  @media screen and (min-width: 768px) {
+    .footer h1 {
+      font-size: 32px;
+      padding-bottom: 28px;
     }
-    .top-row
-    {
-        width: 95%;
-    }
-    .footer-heading
-    {
-        font-size:1.5rem;
-    }
-    .footer-content
-    {
-        margin:2rem 0;
-        font-size: 0.75rem;
-    }
-    .footer-button
-    {
-        margin: 1.2rem;
-        padding:0.3rem 0.8rem;
-        font-size: 0.8rem;
-    }
-    .footer-card
-    {
-        background-color: white;
-        padding: 1rem 1rem 4rem 1rem;
-        position: relative;
-    }
-    .blue-box
-    {
-        width: 100%;
-        margin:6em auto;
-    }
-    .bottom-container
-    {
-        width: 100%;
-    }
-    .line
-    {
-        margin:2.5rem 0 0 0;
-    }
-    .bottom-content
-    {
-        flex-direction: column;
-        padding-top: 1rem;
+    .footer-content {
+      max-width: var(--font-para-width);
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
     }
     .name
     {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    .copyright
+    {
+        font-size: 13px;
+        line-height: 14px;
+        
+    }
+    .icon
+    {
+    margin: 0 0.2rem;
+    border: 2.5px solid #F0F0F0;
+    border-radius: 50%;
+    padding: 0.8rem;
+}
+  }
+
+  @media screen and (min-width: 990px) 
+{
+    .footer-button
+    {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        padding:0.8rem 1.6rem;
+        line-height: 19px;
+    }
+   .bottom-content
+    {
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .blue-box
+    {
+        width: 75%;
+        margin:6em auto;
+    }
+    .line
+    {
+        margin-top: 2rem;
+    }
+    .reverse
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-evenly;
+        text-align: center;
+        width: 70%;
+        margin-left:10rem;
+    }
+    .copyright
+    {
+        margin-top: 0;  
     }
     .icons
     {
-       padding: 2rem 0 0 0;
+        padding:0;
+        margin-left: 3rem;
     }
-    .icon
-   {
-    margin: 0 0.1rem;
-    border: 2px solid #F0F0F0;
-    border-radius: 50%;
-    padding: 0.5rem;
-   }
-    .copyright
-    {
-        position: absolute;
-        bottom: 0;
-        font-size: 0.6rem;
-        padding: 3rem;
-    }
+    
 }
